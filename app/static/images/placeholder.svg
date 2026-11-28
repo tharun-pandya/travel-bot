@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#e9f3ec"/>
+  <polygon points="0,420 200,200 330,330 480,150 800,420 800,500 0,500" fill="#b7d6c1"/>
+  <circle cx="620" cy="110" r="45" fill="#f6d77a"/>
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#2d6a4f">Photo coming soon</text>
+</svg>

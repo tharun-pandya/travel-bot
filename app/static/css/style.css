@@ -1,0 +1,60 @@
+/* Bootstrap does most of the styling. This file has only a few small things. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  min-height: 450px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/static/images/hero.jpg") center / cover;
+  /* dark green colour is shown if hero.jpg is missing, so the white text is still readable */
+  background-color: #1b4332;
+}
+
+.tour-image {
+  height: 200px;
+  object-fit: cover;
+  background-color: #e9ecef;
+}
+
+/* chat button and chat box */
+.chat-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.chat-box {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 75px;
+  width: 340px;
+  max-width: 90%;
+  z-index: 1000;
+}
+
+.chat-messages {
+  height: 320px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  white-space: pre-line;
+}
+
+.bot-message {
+  background: #f1f1f1;
+  margin-right: 40px;
+}
+
+.user-message {
+  background: #198754;
+  color: white;
+  margin-left: 40px;
+}

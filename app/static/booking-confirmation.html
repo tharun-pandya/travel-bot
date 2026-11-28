@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking Request | AndhraTrails</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <nav class="navbar bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/"><i class="bi bi-geo-alt-fill text-success"></i> Andhra<span class="text-success">Trails</span></a>
+      <a href="/" class="btn btn-outline-success"><i class="bi bi-house"></i> Back to home</a>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="card col-lg-8 mx-auto">
+      <div class="card-body p-4">
+        <h2 class="text-success"><i class="bi bi-check-circle-fill"></i> Booking request received</h2>
+        <p class="text-secondary">This is a demo. It is not a confirmed booking and no payment was taken.</p>
+        <p id="message" class="text-danger"></p>
+
+        <table class="table">
+          <tr><td>Booking ID</td><td id="bookingId"></td></tr>
+          <tr><td>Name</td><td id="customerName"></td></tr>
+          <tr><td>Package</td><td id="packageName"></td></tr>
+          <tr><td>Travel date</td><td id="travelDate"></td></tr>
+          <tr><td>Travellers</td><td id="travelers"></td></tr>
+          <tr><td>Total</td><td id="total"></td></tr>
+          <tr><td>Payment</td><td id="payment"></td></tr>
+        </table>
+
+        <a href="/booking-history" class="btn btn-success">Booking history</a>
+        <a href="/" class="btn btn-outline-secondary">Explore more trips</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/confirmation.js"></script>
+</body>
+</html>
